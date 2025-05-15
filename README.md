@@ -80,33 +80,30 @@ task_data_script/
 ## Overview
 The prompt template provides a standardized framework for guiding LLMs in financial task solving, ensuring consistency across accounting, auditing, and consulting modules.
 
-## ⚙️ Core Components
+# ⚙️ Core Components
 
-### 1. Task Description
-- **Name**: Task identifier
-- **Description**: Task objectives
-- **Module**: Accounting/Auditing/Consulting
+### Task Description
+- Task identifier & objectives
+- Module: Accounting/Auditing/Consulting
 
-### 2. Examples
-- **Input**: Sample data, parameters
-- **Output**: Solution format, demonstration
-- **Context**: Explanation and reasoning
+###  Examples
+- Input: Sample data & parameters
+- Output: Solution & demonstration
+- Context: Explanation & reasoning
 
-### 3. Problem Definition
-- **Task**: Problem statement
-- **Input**: Required data
-- **Output**: Expected deliverables
+###  Problem Definition
+- Task statement & requirements
+- Input/Output specifications
 
-### 4. Output Format
-- **JSON Structure**: Solution, validation
-- **Required Fields**: Response format
-- **Rules**: Format guidelines
+###  Output Format
+- JSON structure & validation
+- Required fields & rules
 
-## Features
-- Generic cross-module framework
-- No task-specific knowledge
-- Standardized formats
-- Clear validation rules
+###  Features
+- Generic framework
+- Module independent
+- Standard format
+- Clear validation
 
 
 
