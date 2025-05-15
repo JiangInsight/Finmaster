@@ -17,34 +17,22 @@ To the best of our knowledge, **FinMaster** is the first benchmark that comprehe
 
 
 
-## 🔄 FinSim Workflow
+## 🔄 FinSim Overview
 
-### 1. Initialization - 
-- Configure simulator settings for specific company types 
-- Set up business parameters and operational rules
+FinSim is a financial simulator with three main stages:
 
-### 2. Business Simulation
-- Simulates core financial activities:
-  - Assets Management
-  - Purchase Management
-  - Sales Management
-- Generates comprehensive financial records:
-  - Asset Data
-  - Operational Data
-  - Financial Data
+1. **Data Generation**
+   - Configures company-specific settings
+   - Simulates business operations (assets, purchase, sales)
+   - Produces comprehensive financial records
 
-### 3. Transaction Generation
-- Creates both correct and incorrect transactions
-- Incorporates realistic errors for auditing scenarios
-- Simulates common business mistakes
+2. **Transaction Processing**
+   - Generates realistic transactions
+   - Incorporates deliberate errors for auditing scenarios
 
-### 4. Financial Statement Production
-- **Income Statement**: Aggregates revenue and expense transactions
-- **Balance Sheet**: Combines asset positions with liability and equity data
-- **Cash Flow Statement**: Synthesizes cash transactions into:
-  - Operating Activities
-  - Investing Activities
-  - Financing Activities
+3. **Financial Reporting**
+   - Income Statement: revenue and expense aggregation
+   - Balance Sheet: assets, liabilities, and equity
+   - Cash Flow Statement: operating, investing, and financing activities
 
-The simulation process runs iteratively to ensure comprehensive financial outputs and realistic market dynamics.
 
