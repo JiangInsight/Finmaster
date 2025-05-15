@@ -21,6 +21,50 @@ The complete dataset is available on Kaggle:
 
 You can access and download the FinMaster public dataset from our [Kaggle repository](https://www.kaggle.com/datasets/aixincui/finmaster-public-dataset). This dataset includes all the necessary data for reproducing our results.
 
+## Tutorial
+
+### Configure API Keys
+
+Put your API keys into the folder `api_keys`
+```python
+finmaster/
+├── api_keys/                
+│   ├── openai_api_key.txt/
+│   ├── huoshan_api_key.txt/             
+│   ├── deepseek_api_key.txt/
+|   ├── claude_api_key.txt/
+│   └── maas_api_key.txt
+```
+### Generate Simulated data
+To generate the simulated data, specify the ``<Company Name>`` ('config_chemistry', 'config_consulting', 'config_hotel', 'config_sales','config_big_manufactory') 
+```python
+python simulator/main.py config_chemistry
+```
+### Generate Simulated Tasks
+To transform the simulated finance data into task suite
+```python
+python task_data_script/{data_accounting_read_statement.py, data_accounting_statement_generation.py, data_auditing.py, data_consulting.py}
+```
+### Systematic Assessment of LLMs
+To test task suite with selected LLMs
+```python
+python finmaster/main_finmaster.py
+```
+
+### Dependencies
+```
+Python==3.9.18
+litellm==1.67.2
+openai==1.76.0 
+tiktoken==0.7.0
+tokenizers==0.10.3
+huggingface-hub==0.30.2
+aiohttp ==3.10.11
+cupy  # Optional: Only if GPU support is needed
+scipy>=1.10.0
+matplotlib>=3.7.0
+```
+
 
 ## 🔄 FinSim
 
@@ -81,7 +125,7 @@ task_data_script/
 └── data_consulting.py                   # Financial consulting scenarios
 ```
 
-# 📋 Prompt Template Structure
+# 📋 FinEval Structure
 
 ## Overview
 The prompt template provides a standardized framework for guiding LLMs in financial task solving, ensuring consistency across accounting, auditing, and consulting modules.
