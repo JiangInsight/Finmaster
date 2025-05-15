@@ -67,3 +67,10 @@ A financial task generation framework creating evaluation scenarios across accou
 ### Consulting Tasks
 18 key indicators across profitability, operational efficiency, liquidity, solvency, and cash flow quality
 
+```python
+task_data_script/
+├── data_accounting_read_statement.py     # Statement reading and parsing
+├── data_accounting_statement_generation.py    # Financial statement generation
+├── data_auditing.py                     # Audit task simulation
+└── data_consulting.py                   # Financial consulting scenarios
+```
