@@ -17,9 +17,23 @@ To the best of our knowledge, **FinMaster** is the first benchmark that comprehe
 
 
 
-## 🔄 FinSim
+## 🔄 FinSim Overview
 
-A financial data simulator for generating synthetic business data and financial statements.
+FinSim is a financial simulator with three main stages:
+
+1. **Data Generation**
+   - Configures company-specific settings
+   - Simulates business operations (assets, purchase, sales)
+   - Produces comprehensive financial records
+
+2. **Transaction Processing**
+   - Generates realistic transactions
+   - Incorporates deliberate errors for auditing scenarios
+
+3. **Financial Reporting**
+   - Income Statement: revenue and expense aggregation
+   - Balance Sheet: assets, liabilities, and equity
+   - Cash Flow Statement: operating, investing, and financing activities
 
 ### 📁 Project Structure
 
