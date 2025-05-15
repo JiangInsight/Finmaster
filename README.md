@@ -15,10 +15,12 @@ Our work introduces three key components:
    
 To the best of our knowledge, **FinMaster** is the first benchmark that comprehensively covers full-pipeline financial workflows with challenging and realistic tasks.
 
+
+
 ## 🔄 FinSim Workflow
 
-### 1. Initialization
-- Configure simulator settings for specific company types
+### 1. Initialization - 
+- Configure simulator settings for specific company types 
 - Set up business parameters and operational rules
 
 ### 2. Business Simulation
