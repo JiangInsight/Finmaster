@@ -14,6 +14,7 @@ Our work introduces three key components:
 3. **FinEval**: a unified evaluation framework for systematic assessment of LLMs' financial capabilities.
    
 To the best of our knowledge, **FinMaster** is the first benchmark that comprehensively covers full-pipeline financial workflows with challenging and realistic tasks.
+
 The complete dataset is available on Kaggle:
 
 [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/datasets/aixincui/finmaster-public-dataset)
