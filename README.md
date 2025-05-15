@@ -47,44 +47,29 @@ simulator/
 
 # 🎯 FinSuite
 
-A financial task generation framework that creates diverse evaluation scenarios across accounting, auditing, and consulting domains.
+A financial task generation framework creating evaluation scenarios across accounting, auditing, and consulting domains.
 
-## 🔍 Core Task Categories
+## 🎮 Task Configuration System `<α,β,γ>`
 
-### 1. Financial Literacy Tasks
-Evaluates fundamental financial knowledge using simulator-generated reports:
-- Definition-matching query methodology
-- Progressive complexity evaluation
-- Focus areas:
-  - Terminology comprehension
-  - Logical reasoning
-  - Complex data processing
+- **α (Computational Base Cardinality)**: Number of fundamental data items needed
+- **β (Cross-source Integration Level)**: Number of distinct input data sources
+- **γ (Output Dimensionality Breadth)**: Number of target outputs
 
-### 2. Accounting Tasks
-Financial statement generation through a two-tiered framework:
-- **Tier 1**: Disclosure item generation
-  - Elementary computational operations
-  - Cross-transaction analysis
-- **Tier 2**: Financial statement synthesis
-  - Standardized value generation
-  - Multi-source data integration
-  - Accounting standard compliance
+## 🔨 Task Categories
 
-### 3. Auditing Tasks
-Transaction record verification with dual components:
-- **Component 1**: Invoice-format transaction data generation
-- **Component 2**: Systematic error embedding
-  - 12 distinct error types in 3 categories
-  - Two analysis levels:
-    - Single-error analysis
-    - Multi-error analysis
+### Financial Literacy Tasks
+- Definition-matching queries on financial reports
+- Progressive complexity levels for terminology, reasoning, and data processing
 
-### 4. Consulting Tasks
-Financial performance analysis framework:
-- 18 key indicators across 5 dimensions:
-  - Profitability
-  - Operational efficiency
-  - Liquidity
-  - Solvency
-  - Cash flow quality
+### Accounting Tasks
+- **Tier 1**: Disclosure item generation (elementary & cross-transaction operations)
+- **Tier 2**: Financial statement synthesis with standard compliance
+
+### Auditing Tasks
+- Invoice-format transaction data generation
+- Systematic error embedding (12 types, 3 categories)
+- Single & multi-error analysis levels
+
+### Consulting Tasks
+18 key indicators across profitability, operational efficiency, liquidity, solvency, and cash flow quality
 
