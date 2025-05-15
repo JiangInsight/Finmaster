@@ -17,7 +17,7 @@ To the best of our knowledge, **FinMaster** is the first benchmark that comprehe
 
 
 
-## 🔄 FinSim Overview
+## 🔄 FinSim
 
 FinSim is a financial simulator with three main stages:
 
