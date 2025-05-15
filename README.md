@@ -49,12 +49,6 @@ simulator/
 
 A financial task generation framework creating evaluation scenarios across accounting, auditing, and consulting domains.
 
-## 🎮 Task Configuration System `<α,β,γ>`
-
-- **α (Computational Base Cardinality)**: Number of fundamental data items needed
-- **β (Cross-source Integration Level)**: Number of distinct input data sources
-- **γ (Output Dimensionality Breadth)**: Number of target outputs
-
 ## 🔨 Task Categories
 
 ### Financial Literacy Tasks
