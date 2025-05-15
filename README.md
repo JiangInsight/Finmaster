@@ -74,3 +74,48 @@ task_data_script/
 ├── data_auditing.py                     # Audit task simulation
 └── data_consulting.py                   # Financial consulting scenarios
 ```
+
+# 📋 Prompt Template Structure
+
+## Overview
+The prompt template provides a standardized framework for guiding LLMs in financial task solving, ensuring consistency across accounting, auditing, and consulting modules.
+
+## ⚙️ Core Components
+
+### 1. Task Description
+- **Name**: Task identifier
+- **Description**: Task objectives
+- **Module**: Accounting/Auditing/Consulting
+
+### 2. Examples
+- **Input**: Sample data, parameters
+- **Output**: Solution format, demonstration
+- **Context**: Explanation and reasoning
+
+### 3. Problem Definition
+- **Task**: Problem statement
+- **Input**: Required data
+- **Output**: Expected deliverables
+
+### 4. Output Format
+- **JSON Structure**: Solution, validation
+- **Required Fields**: Response format
+- **Rules**: Format guidelines
+
+## Features
+- Generic cross-module framework
+- No task-specific knowledge
+- Standardized formats
+- Clear validation rules
+
+
+
+
+
+
+
+
+
+
+
+
