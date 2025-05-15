@@ -44,7 +44,7 @@ simulator/
     └── main.py             # Entry point and main program logic
 ```
 
-<img align="center" src="figure/task.png" width="40%"/> <img align="center" src="figure/inter-task relationship.png" width="40%"/> </p> <p align="center"> <img align="center" src="figure/ example.png" width="80%"/> </p>
+<img align="center" src="figure/task.png" width="40%"/> <img align="center" src="figure/Inter-task.png" width="40%"/> </p> <p align="center"> <img align="center" src="figure/example.png" width="80%"/> </p>
 # 🎯 FinSuite
 
 A financial task generation framework creating evaluation scenarios across accounting, auditing, and consulting domains.
