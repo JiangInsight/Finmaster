@@ -1,3 +1,6 @@
-# fin_master
-simulated data:  python simulator/main.py                
-structured data: python task_data_script/data_auditing.py --config config_sales --seed 885
+# FinMaster: A Holistic Benchmark for Mastering Full-Pipeline Financial Workflows with LLMs
+<div align="center">
+<img align="center" src="figures/finmaster.pdf" width="50%"/>
+</div>
+
+***
