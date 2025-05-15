@@ -67,6 +67,7 @@ A financial task generation framework creating evaluation scenarios across accou
 ### Consulting Tasks
 18 key indicators across profitability, operational efficiency, liquidity, solvency, and cash flow quality
 
+### 📁 Project Structure
 ```python
 task_data_script/
 ├── data_accounting_read_statement.py     # Statement reading and parsing
@@ -104,6 +105,30 @@ The prompt template provides a standardized framework for guiding LLMs in financ
 - Module independent
 - Standard format
 - Clear validation
+
+
+### 📁 Project Structure
+```python
+finmaster/
+├── .idea/                     # IDE Configuration
+│
+├── api_keys/                  # API Keys Configuration
+│   ├── claude_api_key
+│   ├── deepseek_api_key
+│   ├── huoshan_api_key
+│   └── openai_api_key
+│
+├── finsuite/                  # Financial Suite Module
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── prompt.py             # Prompt Engineering
+│   └── solver.py             # Problem Solver
+│
+├── run_task/                  # Task Runner Module
+│
+├── .DS_Store
+└── main_finmaster.py         # Main Entry Point
+```
 
 
 
