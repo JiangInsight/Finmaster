@@ -45,4 +45,46 @@ simulator/
 
 
 
+# 🎯 FinSuite
+
+A financial task generation framework that creates diverse evaluation scenarios across accounting, auditing, and consulting domains.
+
+## 🔍 Core Task Categories
+
+### 1. Financial Literacy Tasks
+Evaluates fundamental financial knowledge using simulator-generated reports:
+- Definition-matching query methodology
+- Progressive complexity evaluation
+- Focus areas:
+  - Terminology comprehension
+  - Logical reasoning
+  - Complex data processing
+
+### 2. Accounting Tasks
+Financial statement generation through a two-tiered framework:
+- **Tier 1**: Disclosure item generation
+  - Elementary computational operations
+  - Cross-transaction analysis
+- **Tier 2**: Financial statement synthesis
+  - Standardized value generation
+  - Multi-source data integration
+  - Accounting standard compliance
+
+### 3. Auditing Tasks
+Transaction record verification with dual components:
+- **Component 1**: Invoice-format transaction data generation
+- **Component 2**: Systematic error embedding
+  - 12 distinct error types in 3 categories
+  - Two analysis levels:
+    - Single-error analysis
+    - Multi-error analysis
+
+### 4. Consulting Tasks
+Financial performance analysis framework:
+- 18 key indicators across 5 dimensions:
+  - Profitability
+  - Operational efficiency
+  - Liquidity
+  - Solvency
+  - Cash flow quality
 
