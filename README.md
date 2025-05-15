@@ -42,7 +42,7 @@ simulator/
     ├── business_logic.py    # Core business operations and financial rules
     ├── data_generate.py     # Data generation and transaction simulation
     └── main.py             # Entry point and main program logic
-
+```
 
 
 # 🎯 FinSuite
